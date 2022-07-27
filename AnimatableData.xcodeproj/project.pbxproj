@@ -15,6 +15,9 @@
 		549AEED9288AFC8700D22041 /* AnimatableFontScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549AEED8288AFC8700D22041 /* AnimatableFontScaleView.swift */; };
 		549AEEDB288AFD8200D22041 /* AnimatableZIndexModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549AEEDA288AFD8200D22041 /* AnimatableZIndexModifier.swift */; };
 		549AEEDF288B6B0A00D22041 /* AnimatableFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549AEEDE288B6B0A00D22041 /* AnimatableFontSize.swift */; };
+		549AEEE1288B72EE00D22041 /* TypewriterStringAnimatableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549AEEE0288B72EE00D22041 /* TypewriterStringAnimatableView.swift */; };
+		549AEEE3288B731E00D22041 /* TypeWriterAnimatableModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549AEEE2288B731E00D22041 /* TypeWriterAnimatableModifier.swift */; };
+		549AEEE5288B87E700D22041 /* ButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549AEEE4288B87E700D22041 /* ButtonItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,8 @@
 		549AEED8288AFC8700D22041 /* AnimatableFontScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFontScaleView.swift; sourceTree = "<group>"; };
 		549AEEDA288AFD8200D22041 /* AnimatableZIndexModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableZIndexModifier.swift; sourceTree = "<group>"; };
 		549AEEDE288B6B0A00D22041 /* AnimatableFontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFontSize.swift; sourceTree = "<group>"; };
+		549AEEE0288B72EE00D22041 /* TypewriterStringAnimatableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypewriterStringAnimatableView.swift; sourceTree = "<group>"; };
+		549AEEE2288B731E00D22041 /* TypeWriterAnimatableModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeWriterAnimatableModifier.swift; sourceTree = "<group>"; };
 		549AEEE4288B87E700D22041 /* ButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +88,7 @@
 			children = (
 				549AEEDA288AFD8200D22041 /* AnimatableZIndexModifier.swift */,
 				549AEEDE288B6B0A00D22041 /* AnimatableFontSize.swift */,
+				549AEEE2288B731E00D22041 /* TypeWriterAnimatableModifier.swift */,
 			);
 			path = Animatable;
 			sourceTree = "<group>";
@@ -92,6 +98,7 @@
 			children = (
 				549AEED6288AFC7300D22041 /* AnimatableZIndexView.swift */,
 				549AEED8288AFC8700D22041 /* AnimatableFontScaleView.swift */,
+				549AEEE0288B72EE00D22041 /* TypewriterStringAnimatableView.swift */,
 				549AEEE4288B87E700D22041 /* ButtonItem.swift */,
 			);
 			path = Views;
@@ -170,8 +177,10 @@
 				549AEEDB288AFD8200D22041 /* AnimatableZIndexModifier.swift in Sources */,
 				549AEEE5288B87E700D22041 /* ButtonItem.swift in Sources */,
 				549AEEDF288B6B0A00D22041 /* AnimatableFontSize.swift in Sources */,
+				549AEEE1288B72EE00D22041 /* TypewriterStringAnimatableView.swift in Sources */,
 				549AEED7288AFC7300D22041 /* AnimatableZIndexView.swift in Sources */,
 				549AEED9288AFC8700D22041 /* AnimatableFontScaleView.swift in Sources */,
+				549AEEE3288B731E00D22041 /* TypeWriterAnimatableModifier.swift in Sources */,
 				5486F1A428635A8D00BAEDF3 /* ContentView.swift in Sources */,
 				5486F1A228635A8D00BAEDF3 /* AnimatableDataApp.swift in Sources */,
 			);

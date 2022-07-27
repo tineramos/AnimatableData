@@ -20,6 +20,9 @@ struct ContentView: View {
 				NavigationLink(destination: AnimatableFontScaleView()) {
 					Text("Font Size")
 				}
+				NavigationLink(destination: TypewriterStringAnimatableView()) {
+					Text("Typewriter Text")
+				}
 			}
 		}
 
