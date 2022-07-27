@@ -17,6 +17,9 @@ struct ContentView: View {
 				NavigationLink(destination: AnimatableZIndexView()) {
 					Text("ZIndex")
 				}
+				NavigationLink(destination: AnimatableFontScaleView()) {
+					Text("Font Size")
+				}
 			}
 		}
 
