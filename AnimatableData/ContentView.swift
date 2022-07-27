@@ -8,10 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+	
+	var body: some View {
+		
+		NavigationView {
+
+			List {
+				NavigationLink(destination: AnimatableZIndexView()) {
+					Text("ZIndex")
+				}
+			}
+		}
+
+	}
+	
 }
 
 struct ContentView_Previews: PreviewProvider {
